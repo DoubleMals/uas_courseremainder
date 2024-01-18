@@ -1,3 +1,13 @@
+<!--
+
+@Author
+Muhammad Barra Putra Hananto
+@NIM
+41823010131
+
+-->
+
+
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
         android:label="uas_courseremainder"
