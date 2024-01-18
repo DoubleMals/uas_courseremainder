@@ -65,8 +65,21 @@ State<InfoScreen> {
                     ),
                   ),
                   child: ListTile(
-                    title: Text(matkulData.name),
-                    subtitle: Text(matkulData.kode),
+                    title: Text(
+                        matkulData.name,
+                        style: TextStyle(fontWeight: FontWeight.bold)
+                    ),
+                    subtitle: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          matkulData.kode,
+                        ),
+                        Text(
+                          matkulData.jadwal,
+                        ),
+                      ],
+                    ),
                     trailing: IconButton(
                       onPressed: () => _deleteInfo(index),
                       icon: Icon(

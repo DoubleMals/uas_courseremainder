@@ -57,7 +57,7 @@ class _UpdateMatkulFormState extends State<UpdateMatkulForm>
         crossAxisAlignment:
         CrossAxisAlignment.start,
         children: [
-          Text('Name'),
+          Text('Nama Mata Kuliah'),
           TextFormField(
             controller: _nameController,
             validator: _fieldValidator,
